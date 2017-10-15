@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<script type="text/javascript">
+	
+	function newsClick(){
+			
+		
+	
+		document.getElementById("main_content").innerHTML = '<iframe class="holds-the-iframe" src="https://news.missouri.edu/" height="500" width="600">Loading....</iframe>'
+	
+	}
+
+		function maneaterClick(){
+			
+			
+		document.getElementById("main_content").innerHTML = '<iframe class="holds-the-iframe"  src="http://www.themaneater.com/" height="500" width="600"></iframe>'
+	
+	}
+
+	function sportsClick(){
+
+		document.getElementById("main_content").innerHTML = '<iframe class="holds-the-iframe" src="http://www.espn.com/college-football/team/_/id/142/missouri-tigers" height="500" width="600"></iframe>'
+	}
+
+
+
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="grid.css">
+
+<link rel="icon" 
+      type="image/png" 
+      href="favicon.ico">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<title>Tiger Hacks 2017</title>
+
+
+</head>
+<body background="Mizzou1.jpg">
+
+
+<div class="row" id="toptitle">
+
+<div class="col-4" height="400px" >
+<img src="tiger_big.png" width="100px" height="100px" >
+
+</div>
+
+
+<div class="col-5"  ><img src="tigertales.png"></div>
+
+
+
+</div>
+
+
+<div class="row">
+
+<div class="col-3 menu">
+	<center><h5 style="color: white">Menu:</h5></center>
+	<ul style="list-style-type:none">
+		<a href="javascript:newsClick();"><li>News</li></a>
+		<a href=""><li>Twitter</li></a>
+		<a href="javascript:maneaterClick();"><li>The Maneater</li></a>
+		<a href="javascript:sportsClick();"><li>Sports</li></a>
+	</ul>
+
+</div>
+
+
+<div class="col-1"></div>
+
+
+<div class="col-5" id="main_content" >                               <a class="twitter-timeline"  href="https://twitter.com/hashtag/Mizzou" data-widget-id="919318795939917824">#Mizzou Tweets</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+          </div>
+
+
+<div class="col-1"></div>
+
+<!--
+<div class="col-3 friend_menu">
+
+<center><h5 >Friends:</h5></center>
+	<ul>
+		<li>Friend1</li>
+		<li>Friend2</li>
+		<li>Friend3</li>
+		<li>Friend4</li>
+		<li>Friend5</li>
+		<li>Friend6</li>
+
+	</ul>
+</div>
+-->
+
+
+
+
+	</div>
+
+</body>
+</html>
